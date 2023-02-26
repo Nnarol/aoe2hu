@@ -1,0 +1,277 @@
+.leaderboardTable {
+	width: 100%;
+}
+
+table.leaderboardTable tr:nth-child(even)  {
+	background: #ecd59f;
+}
+
+.mainpage {
+	background: #E7D9B9;
+	border: 1px solid #686868;
+	width: 1300;
+	margin: auto;
+	display: table;
+	color: black;
+}
+
+.oldal {
+	padding: 1%;
+}
+
+.header {
+	background: #E7D9B9;
+	border: 1px solid #686868; 
+	width: 1300;
+	align: center;
+	margin: auto;
+}
+
+.separator {	
+	background: #E7D9B9;
+	border: 1px solid #686868; 
+	width: 1300;
+	margin: auto;
+	height: 15px;
+}
+
+.basic-container {
+	border: 1px solid #000000; 
+	width: 100%;	
+}
+
+.basic-container h3 {
+	border-top: 1px solid #FFFFFF;
+	border-left: 1px solid #FFFFFF;
+	border-bottom: 1px solid #A7A7A7;
+	border-right: 1px solid #A7A7A7;
+	font-weight: bold;
+	padding-left: 1%;
+	margin-top: 0px;
+}
+
+.innerText {
+	width: 90%;
+	margin: auto;
+	margin-top: 5%;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.innerHeader {
+	font-weight: bold;
+	margin-left: -10px;
+}
+
+.column {
+	float: left;
+	width: 32%;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+
+.concactTable {
+	width: 90%;
+	margin: auto;
+}
+
+.concactTable td {
+	text-align: center;
+}
+
+table.valt tr:nth-child(even)  {
+	background: #ecd59f;
+}
+
+td.bpszoveg {
+	text-align: justify;
+	width: 25%;
+	font-size: 8pt;
+	padding: 15px;
+}
+
+td.bestplayers {
+	/*border: 1px solid black;*/
+	text-align: center;
+	width: 25%;
+	
+}
+
+td.bajnoksagok {
+	text-align: left;
+	/*width: 20%;*/
+	
+}
+td.hunleaguerankings {
+	text-align: center;
+	/*width: 20%;*/
+	
+}
+
+td.klanok {
+	text-align: left;
+	width: 33%;
+	
+}
+
+td.tortenelem {
+	text-align: left;
+	/*width: 20%;*/
+	
+}
+
+td.talik {
+	text-align: left;
+	/*width: 20%;*/
+	
+}
+
+td.talik_kep {
+	text-align: center;
+	/*width: 20%;*/
+	
+}
+
+.akiktettek td {
+	border: 1px solid black;
+	text-align: left;
+	
+}
+
+.tortkep {
+	text-align: center;
+}
+
+#ffwd_container1_0 #ffwd_container2_0 .blog_style_object_container_0 {
+       background-color: #E7D9B9 !important;
+}
+
+#ffwd_container1_0 #ffwd_container2_0 .ffwd_blog_style_object_info_container_0 {
+       background-color: #E7D9B9 !important;
+}
+
+
+
+
+/* body */
+
+body { 
+  background: white;
+  margin-top: 10px;
+  padding: 0px;
+  scrollbar-base-color: #E5E5E5;
+  scrollbar-track-color: #FFFFFF; 
+  scrollbar-arrow-color: #000000; 
+  font-family: tahoma,verdana,arial; 
+  font-size: 9pt; 
+  color: #686868; }
+table.style {
+   background: #E7D9B9;
+   border-top: 1px solid #686868; 
+   border-left: 1px solid #686868; 
+   border-bottom: 1px solid #A7A7A7;
+   border-right: 1px solid #A7A7A7; }
+table.right { 
+  background: #000000;  
+  padding: 0px; }
+table.main {
+  padding: 0px;
+  border: 1px solid #000000; 
+  background: #000000; 
+  width: 100%;
+}
+table.footer {
+  margin-top: 2px;
+  padding: 0px;
+  border: 1px solid #000000; 
+  background: #000000; }
+td { 
+/*  background: #E7D9B9; */
+  font-family: tahoma,verdana,arial; 
+  font-size: 9pt;
+  color: #464646; } 
+td.style {
+  background: #E7D9B9;
+  border-top: 1px solid #FFFFFF;
+  border-left: 1px solid #FFFFFF;
+  border-bottom: 1px solid #A7A7A7;
+  border-right: 1px solid #A7A7A7;
+  color: #686868; } 
+td.title {
+  padding: 2px;
+  background: #FAFAFA;
+  border: 1px solid #000000;
+  color: #686868; } 
+td.header {
+   background: #E7D9B9;
+   border-top: 1px solid #FFFFFF;
+   border-left: 1px solid #FFFFFF;
+   border-bottom: 1px solid #A7A7A7;
+   border-right: 1px solid #A7A7A7;
+   color: #000000; } 
+td.author {
+  text-align: right;
+  border-top: 1px dashed #000000; }
+
+a:link {
+  font-family: tahoma,verdana,arial;
+  font-size: 9pt; 
+  text-decoration: none;
+  color: #a61931; }
+a:visited {
+  font-family: tahoma,verdana,arial;
+  font-size: 9pt; 
+  text-decoration: none;
+  color: #a61931; }
+a:hover {
+  font-family: tahoma,verdana,arial;
+  font-size: 9pt; 
+  text-decoration: none;
+  color: #000000; }
+ p.kerdezo {
+	 color: blue;
+	 font-weight: bold;
+ }
+ p.idezet {
+	 text-align: center;
+	 margin: auto;
+     vertical-align: top;
+	 
+ }
+ 
+ 
+ h1.ev {
+	text-align: center;
+	font-weight: bold;
+	font-size: 18pt; 
+ }
+ 
+ td.t1 {
+	 width: 80%;
+	 vertical-align: top;
+	 font-weight: bold;
+ }
+ 
+  td.t1small {
+	 width: 80%;
+	 vertical-align: top;
+	 font-weight: bold;
+	 font-size: 7pt;
+ }
+ 
+ td.t2 {
+	 vertical-align: top;
+	width: 20%;
+ }
+
+#images{
+    text-align:center;
+    margin:50px auto; 
+}
+#images i{
+    margin:0px 20px;
+    display:inline-block;
+    text-decoration:none;
+    color:black;
+ }
+ 
