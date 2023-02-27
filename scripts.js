@@ -75,12 +75,13 @@ const names = [
 	
 ];
 
-const rankedLists = [{ 
-		url: 'https://aoe2.net/api/leaderboard?game=aoe2de&leaderboard_id=3&start=1&count=10000',
+const rankedLists = [
+	{
+		url: document.location.href + '/1v1leaderboard.php',
 		target: '#1v1LeaderboardTable > tbody:last-child',
 	},
-	{ 
-		url: 'https://aoe2.net/api/leaderboard?game=aoe2de&leaderboard_id=4&start=1&count=10000',
+	{
+		url: document.location.href + '/tgleaderboard.php',
 		target: '#teamLeaderboardTable > tbody:last-child',
 	},
 ];
@@ -89,8 +90,8 @@ function fillLeaderBoard() {
    for (j = 0; j < rankedLists.length; j++) {
 	   $.ajax({
 				type: "GET",
-			    crossDomain: true,
-			    dataType: 'jsonp',
+			    crossDomain: false,
+			    dataType: 'json',
 				url: rankedLists[j].url,
 				success: function(response)
 				{
